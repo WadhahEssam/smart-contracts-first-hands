@@ -6,5 +6,5 @@ const assert = require('asssert');
 const ganache = require('ganache-cli');
 
 // this starts with an upper case because it is a constructor that is used to make 
-// web3 instances  
+// web3 instances 
 const Web3 = require('web3');
