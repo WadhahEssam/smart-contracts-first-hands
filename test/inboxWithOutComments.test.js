@@ -16,7 +16,7 @@ beforeEach( async () => {
     .send({ from: accounts[0], gas: '1000000' });
 });
 
-describe('Inbox Widthout Comments Contract', () => {
+describe('Inbox Without Comments Contract', () => {
   it('deploys a contract', () => {
     assert.ok(inbox.options.address);
   });
