@@ -3,7 +3,7 @@ const fs = require('fs');
 const solc = require('solc');
 
 // generating the cross platform path ...
-// __dirname in this case means the project folder  
+// __dirname is the current directory 
 const inboxPath = path.resolve(__dirname, 'contracts' , 'inbox.sol');
 
 // reading the contents of the file using the file system library 
